@@ -17,7 +17,7 @@ import javax.swing.JPanel;
  */
 public class GUIView extends JPanel {
 	/** The "Start Game" button */
-	private final JButton startGameButton;
+	private final JButton jugar;
 
 	/** The chooser (also called drop-down menu) with names of different games */
 	private final JComboBox gameChooser;
@@ -63,7 +63,7 @@ public class GUIView extends JPanel {
 
 		// Create a new button on that panel and add a StartGameListener as
 		// listener on that button
-		this.startGameButton = new JButton("Lets Play");
+		this.startGameButton = new JButton("Let's Go!!!");
 		this.startGameButton.addActionListener(new StartGameListener());
 		this.guiPanel.add(this.startGameButton);
 
